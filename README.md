@@ -13,7 +13,7 @@ Optimized Performance: Optimized website performance to ensure fast loading time
 <br>
 <b>Live Link</b>
 <br>
-The live version of the website can be accessed here.  <a href="https://portfolio-website-nine-xi-67.vercel.app/"></a>
+The live version of the website can be accessed here. [ <a href="https://portfolio-website-nine-xi-67.vercel.app/">](https://portfolio-website-nine-xi-67.vercel.app/) </a>
 <br>
 <br>
 <b>Technologies Used</b> <br>
