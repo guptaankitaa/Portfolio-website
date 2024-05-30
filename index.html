@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font-awesome.css" />
+    <title>Portfolio Website</title>
+
+     <!-- box icons -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <!-- Page Loader Start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Page Loader End -->
+
+    <!-- Background Circles Start -->
+
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+
+    <!-- Background Circles End -->
+
+    <!-- Overlay Start -->
+
+    <div class="overlay"></div>
+
+    <!-- Overlay End -->
+
+    <!-- Main Start -->
+    <div class="main hidden">
+      <!-- Header Start -->
+
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">Home</a></li>
+                  <li><a href="#about" class="nav-item link-item">About</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item">Projects</a>
+                  </li>
+                  <li>
+                    <a href="#notes" class="nav-item link-item">My Notes</a>
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- Header End -->
+
+      <!-- Home Section Start -->
+
+      <section class="home-section align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>Ankita Gupta</h1>
+             <p>A Passionate Coder with a talent of problem-solving and creating efficient solutions. Always learning and adapting 
+                    to stay ahead in the tech world.</p>
+                    <br>
+              <a href="#about" class="btn link-item">more about me</a>
+              <a href="#portfolio" class="btn link-item">Projects</a>
+              <br>
+              <a href="https://leetcode.com/u/guptaankita/" class="btn link-item">Leetcode</a>
+              <a href="https://auth.geeksforgeeks.org/user/guptaankita" class="btn link-item">GeeksforGeeks</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="pic.jpg" alt="profile-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Home Section End -->
+
+
+      <!-- About Section Start -->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>about me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="aboutmepicture.jpg" alt="about image" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                I'm an engineering student specializing in Computer Science &
+                Engineering, from Gyan Ganga College of Technology, Jabalpur with an overall CGPA of
+                8.26 till 7th Sem. Having great hands on practice in Problem Solving Skills (Data Structure and Algorithm) Along with this, I completed various
+                courses like Machine Learning by AWS, Programming essential in Python by Cisco. Also, I have 
+                the Knowledge of core Subjects of Computer Science field like Operating Systerm, Object Oriented Programming 
+                and Computer Network.
+                Moreover, I have learned the basics and advanced topics of
+                FullStack Frontend Development using the languages
+                like HTML, CSS, Tailwind & JavaScript.
+              </p>
+              <h3>skills</h3>
+              <div class="skills">
+                <div class="skill-item">C++</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Node Js</div>
+                <div class="skill-item">MongoDb</div>
+                <div class="skill-item">Express Js</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">Data Stucture and Algoritms</div>
+                <div class="skill-item">Problem Solving</div>
+                <div class="skill-item">Machine Learning</div>
+                <div class="skill-item">Communication</div>
+                <div class="skill-item">Collaborative</div>
+                <div class="skill-item">OOPS</div>
+                <div class="skill-item">DBMS</div>
+                <div class="skill-item">Computer Networks</div>
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">Bootstrap</div>
+                <div class="skill-item">Tailwind Css</div>
+                <div class="skill-item">React</div>
+                <div class="skill-item">Git and GitHub</div>
+              </div>
+
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  education
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  coding platform
+                </button>
+              </div>
+
+              <!-- Education Start -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2020-2024</span>
+                    <h4>
+                      bachelor of technology - <span>Gyan Ganga College of Technology</span>
+                    </h4>
+                    <p>
+                      Pre-Final year student in Computer Science & Engineering
+                      with an overall CGPA of 8.23.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2019-2020</span>
+                    <h4>
+                      Senior Secondary - <span>Wisdom Public School</span>
+                    </h4>
+                    <p>
+                      Completed my 12th from M.P. board with an overall
+                      percentage of 56.7.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2017-2018</span>
+                    <h4>Secondary - <span>Wisdom Public School</span></h4>
+                    <p>
+                      Completed my 10th from M.P. board with an overall
+                      percentage of 70.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Education End -->
+
+              <!-- coding Platform Start -->
+
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    
+                    <h4>
+                      Leetcode <span>guptaankita</span>
+                    </h4>
+                    <p>
+                      having streak of 300+ days.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                  
+                    <h4>
+                      Github
+                      <span>guptaankitaa</span>
+                    </h4>
+                    <p>
+                      contain all the repositry of code and projects.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    
+                    <h4>
+                     CodingNinjas
+                      <span>AnkitaGupta</span>
+                    </h4>
+                    <p>
+                      having streak of 100+ days.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Experience End -->
+
+              <a href="Ankita Gupta Resume.pdf" target="_blank" class="btn">download cv</a>
+              <a href="#contact" class="btn link-item">contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+
+
+
+
+ <!-- notes Section Start -->
+ <section class="about-section sec-padding" id="notes">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>My Notes</h2>
+        </div>
+        <br>
+        <br>
+      </div>
+      <div class="row">
+        
+        </div>
+        <div class="about-text">
+          <p>
+            I create handwritten notes that are easy to understand and beginner-friendly, ensuring that all 
+            topics are covered comprehensively. My notes are meticulously organized, making complex subjects 
+            accessible and engaging. They serve as a reliable resource for learners at any level, helping them
+             grasp concepts quickly and efficiently.
+          </p>
+          <br>
+          <br>
+          <h3>Subjects</h3>
+          <br>
+          <br>
+
+          <div class="skills">
+           
+            <a href="SQL.pdf" class="btn link-item">SQL</a>
+            <a href="Mongodb.pdf" class="btn link-item">MongoDb</a>
+            <a href="Operating system.pdf" class="btn link-item">Operating System</a>
+            <a href="Object  oriented programming .pdf" class="btn link-item">Object Oriented Programming</a>
+          </div>
+     
+      </div>
+    </div>
+  </section>
+  <!-- notes Section End -->
+
+
+
+
+
+
+
+
+      <!-- Portfolio Section Start -->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>recent work</h2>
+            </div>
+          </div>
+          <div class="row">
+
+             <!-- Portfolio Item Start -->
+             <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA7eiRap3SlZlWU1o1bPFuthyhZ0j5Qd8oZg&s"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">HOMZY</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    HOMZY is a dynamic real estate platform launched in April 2024, offering an intuitive property 
+                    search experience. Visitors can effortlessly filter searches by type, location, price range, and
+                     custom criteria such as amenities or property features. The platform ensures secure and efficient
+                      CRUD operations with a remarkable 98% success rate, maintaining user data integrity. Account 
+                      deletion is facilitated securely through JWT cookie validation to verify user authenticity, 
+                      safeguarding user privacy. HOMZY prioritizes performance, achieving a 90% improvement in page
+                       load times compared to industry benchmarks, ensuring a fast and seamless user experience. The
+                        project exemplifies cutting-edge web development practices and user-centric design.
+                   
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Srarted - <span>February 2024</span></li>
+                    <li>
+                      technologies used -
+                      <span>MongoDb , Express Js, React Js, Node Js </span>
+                    
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/guptaankitaa/Homzy"
+                          target="_blank"
+                          >https://github.com/guptaankitaa/Homzy</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+             <!-- Portfolio Item End -->
+
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="https://img.freepik.com/free-photo/sign-language-with-hands-studio_23-2150585633.jpg?size=626&ext=jpg"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">TRANSLATECARE</h3>
+              <button type="button" class="btn view-project-btn"> 
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    "TranslateCare" is an ML-based model that utilizes sign language recognition to facilitate communication 
+                    between hearing-impaired individuals and non-signing individuals. The project involved designing and training 
+                    a deep learning model using convolutional neural networks (CNNs) to recognize hand gestures and convert them 
+                    into subtitles on a screen in real-time. As a team member, I was responsible for research and developed the user interface 
+                    and user experience of the model The project's success has the potential to improve accessibility for hearing-impaired 
+                    individuals and enhance communication between them and the hearing community."
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span> March - April 2022 </span></li>
+                    <li>technologies used - <span>Python, Html, Css, JavaScript, Machine Learning </span></li>
+                    <li>Role - <span>Frontend and Research</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/guptaankitaa/Translate-Care"
+                          target="_blank"
+                          >https://github.com/guptaankitaa/Translate-Care</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+
+           
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="https://imgs.search.brave.com/vcAzKtmf8dxq5_gB1Yep6LVTEQXqDaygVo9e5CKxUzo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLmd1/aW0uY28udWsvaW1n/L3N0YXRpYy9zeXMt/aW1hZ2VzL0d1YXJk/aWFuL1BpeC9waWN0/dXJlcy8yMDE0LzUv/OS8xMzk5NjQ0NTA3/ODc5LzU4OTc1MjBj/LTA3NGYtNGQyOS05/MzFhLWUxNmE4N2U1/MDQ5Mi0xMDI0eDc2/OC5wbmc_d2lkdGg9/NDQ1JmRwcj0xJnM9/bm9uZQ"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">BOOK RECOMMENDATION SYSTEM</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    I spearheaded the creation of a book recommendation system using cutting-edge 
+                    machine learning methodologies. By harnessing Python and its libraries, I designed 
+                    an algorithm that analyzed user preferences and behavior to generate personalized 
+                    book recommendations. Through meticulous implementation of machine learning techniques,
+                     I significantly enhanced user engagement by providing tailored suggestions, 
+                     thereby fostering a more immersive and satisfying reading experience. 
+                     This project not only showcased my expertise in machine learning but also 
+                     demonstrated my ability to leverage technology in crafting impactful and 
+                     user-centric solutions within the realm of literature and user interaction.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Started - <span>June 2023</span></li>
+                    
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/guptaankitaa"
+                          target="_blank"
+                          >https://github.com/guptaankitaa</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="portfolioimg.PNG"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">PORTFOLIO</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    I crafted a sleek and adaptable portfolio website utilizing HTML, CSS, and JavaScript, 
+                    focusing on clean design and seamless responsiveness. This platform served as an 
+                    interactive showcase of my skills and professional journey, offering visitors an engaging
+                     and intuitive experience. Through meticulous design and implementation, I ensured that
+                      the website not only highlighted my expertise but also provided an immersive glimpse 
+                      into my capabilities and accomplishments. This project demonstrated my proficiency in
+                       web development and design, effectively presenting my skill set and experiences to 
+                       potential collaborators or employers in an aesthetically pleasing and user-friendly
+                        manner.
+                   
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Started - <span>Jannuary 2023</span></li>
+                    <li>
+                      technologies used -
+                      <span>Html, Css, JavaScript</span>
+                    </li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/guptaankitaa"
+                          target="_blank"
+                          >https://github.com/guptaankitaa</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPtq7SVYqGRnl1cMCmjgQWiErONypTFD-YDQ&usqp=CAU"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Email Spam Detection</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    The primary goal of an email spam detection system is to automatically identify and 
+                    filter out unwanted or malicious emails (spam) from reaching a user's inbox. The system 
+                    aims to enhance user experience, protect users from phishing attacks, and ensure the 
+                    security and reliability of email communication. An effective email spam detection system
+                     helps users avoid unwanted content, protects against phishing attacks, and ensures a 
+                     secure and efficient email communication environment.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Srarted - <span>November 2023</span></li>
+                    <li>
+                      technologies used -
+                      <span>Python, Numpy, Pandas</span>
+                    
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/guptaankitaa/MachineLearning"
+                          target="_blank"
+                          >https://github.com/guptaankitaa/MachineLearning</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLailnqiAvUlncTVNmCHJrkLP98dYxZH_NOA&usqp=CAU"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Diabetes Prediction Model</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    The primary goal of this machine learning model is to predict the likelihood of an
+                     individual having diabetes based on various health-related features. This type of
+                      model is valuable for early diagnosis and intervention, helping healthcare professionals 
+                      provide timely care to individuals at risk of diabetes.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Srarted - <span>December 2023</span></li>
+                    <li>
+                      technologies used -
+                      <span>Python, Numpy, Pandas</span>
+                    
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/guptaankitaa/MachineLearning"
+                          target="_blank"
+                          >https://github.com/guptaankitaa/MachineLearning</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            
+          </section>
+            <!-- Portfolio Item End -->
+            
+
+      <!-- Contact Section Start -->
+
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form onsubmit="sendEmail(); reset(); return false;">   
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="name"
+                      placeholder="Name"
+                      class="input-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      class="input-control"
+                      id="email"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      class="input-control"
+                      id="subject"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      id="message"
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">send message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>guptaankita0004@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>8707637884</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                    <a href="mailto:guptaankita0004@gmail.com"><i class='bx bxl-gmail'></i></a>
+                    <a
+                    href="https://www.linkedin.com/in/ankita-gupta-b854b422b"
+                    target="_blank"
+                    ><i class='bx bxl-linkedin'></i></i
+                  ></a>
+                  <a href="https://github.com/guptaankitaa" target="_blank"
+                    ><i class="bx bxl-github"></i></a>
+                  <a
+                    href="https://www.instagram.com/ankiita.4/"
+                    target="_blank"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section End -->
+    </div>
+    <!-- Main End -->
+
+    <!-- Portfolio Item Details Popup Start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="images/portfolio/crypto.png" alt="pp-thumbnail" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Item Details Popup End -->
+
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "guptaankita0004@gmail.com",
+          Password: "fF3DF1117A19D8DB7F3E81A3805316DA6E65F",
+          To: "ankitagupta.cse20@ggct.co.in",
+          From: document.getElementById("email").value,
+          Subject: document.getElementById("subject").value,
+          Body: "Name: " + document.getElementById("name").value
+              + "<br> Message: " + document.getElementById("message").value  
+        }).then((message) => alert("Error!! please click on mail Icon!!"));
+      }
+    </script>
+  </body>
+</html>
+
+
+
