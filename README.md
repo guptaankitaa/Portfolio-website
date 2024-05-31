@@ -1,10 +1,10 @@
 
-<b><u>Portfolio Website Project</u></b>
+<b>Portfolio Website Project</b>
 <br>
 This repository contains the code for my portfolio website developed in August 2022. The website showcases various projects, artworks, and achievements effectively. Additionally, it features a comprehensive notes section tailored for B.Tech students, offering beginner-friendly and easy-to-understand content.
 <br>
 <br>
-<b><u>Features</u></b>
+<b>Features</b>
 <br>
 <u>Portfolio Section:</u> A clean and responsive portfolio section to showcase projects, artworks, or achievements effectively.<hr>
 <u>Notes Section:</u> Developed a comprehensive notes section specifically for B.Tech students, featuring beginner-friendly and easy-to-understand content.<hr>
@@ -13,13 +13,14 @@ This repository contains the code for my portfolio website developed in August 2
 <br>
 <b>Live Link</b>
 <br>
-The live version of the website can be accessed here. [ <a href="https://portfolio-website-nine-xi-67.vercel.app/">](https://portfolio-website-nine-xi-67.vercel.app/) </a>
+<br>
+The live version of the website can be accessed  <a href="https://ank-portfolio-website.vercel.app/">here</a><br>
 <br>
 <br>
 <b><u>Technologies Used</b> </u><br>
-HTML<br>
-CSS<br>
-JavaScript
+<li>HTML</li><br>
+</li>CSS<li><br>
+</li>JavaScript<li>
 <br>
 <br>
 <b>To run this project locally, follow these steps:</b>
