@@ -18,9 +18,9 @@ The live version of the website can be accessed  <a href="https://ank-portfolio-
 <br>
 <br>
 <b><u>Technologies Used</b> </u><br>
-<li>HTML</li><br>
-</li>CSS<li><br>
-</li>JavaScript<li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
 <br>
 <br>
 <b>To run this project locally, follow these steps:</b>
