@@ -1,14 +1,14 @@
 
-<b>Portfolio Website Project</b>
+<b><u>Portfolio Website Project</u></b>
 <br>
 This repository contains the code for my portfolio website developed in August 2022. The website showcases various projects, artworks, and achievements effectively. Additionally, it features a comprehensive notes section tailored for B.Tech students, offering beginner-friendly and easy-to-understand content.
 <br>
 <br>
-<b>Features</b>
+<b><u>Features</u></b>
 <br>
-Portfolio Section: A clean and responsive portfolio section to showcase projects, artworks, or achievements effectively.<hr>
-Notes Section: Developed a comprehensive notes section specifically for B.Tech students, featuring beginner-friendly and easy-to-understand content.<hr>
-Optimized Performance: Optimized website performance to ensure fast loading times and smooth navigation.
+<u>Portfolio Section:</u> A clean and responsive portfolio section to showcase projects, artworks, or achievements effectively.<hr>
+<u>Notes Section:</u> Developed a comprehensive notes section specifically for B.Tech students, featuring beginner-friendly and easy-to-understand content.<hr>
+<u>Optimized Performance:</u> Optimized website performance to ensure fast loading times and smooth navigation.
 <br>
 <br>
 <b>Live Link</b>
@@ -16,7 +16,7 @@ Optimized Performance: Optimized website performance to ensure fast loading time
 The live version of the website can be accessed here. [ <a href="https://portfolio-website-nine-xi-67.vercel.app/">](https://portfolio-website-nine-xi-67.vercel.app/) </a>
 <br>
 <br>
-<b>Technologies Used</b> <br>
+<b><u>Technologies Used</b> </u><br>
 HTML<br>
 CSS<br>
 JavaScript
@@ -27,8 +27,10 @@ JavaScript
 Clone this repository to your local machine using git clone.
 Open the index.html file in your preferred web browser.
 <br>
-Contributing
+<br>
+<b><u>Contributing</u></b><br>
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
 <br>
-<b>License</b>
+<br>
+<b><u>License</u></b><br>
 This project is licensed under the MIT License. Feel free to modify and distribute this code for personal or commercial projects.
