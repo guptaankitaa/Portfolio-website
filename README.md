@@ -25,7 +25,7 @@ The live version of the website can be accessed  <a href="https://ank-portfolio-
 <br>
 <b>To run this project locally, follow these steps:</b>
 <br>
-Clone this repository to your local machine using git clone.
+Clone this repository to your local machine using git clone.<br>
 Open the index.html file in your preferred web browser.
 <br>
 <br>
