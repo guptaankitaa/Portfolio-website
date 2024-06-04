@@ -1,4 +1,3 @@
-
 <b>Portfolio Website Project</b>
 <br>
 This repository contains the code for my portfolio website developed in August 2022. The website showcases various projects, artworks, and achievements effectively. Additionally, it features a comprehensive notes section tailored for B.Tech students, offering beginner-friendly and easy-to-understand content.
@@ -23,7 +22,7 @@ The live version of the website can be accessed  <a href="https://ank-portfolio-
 <li>JavaScript</li>
 <br>
 <br>
-<b>To run this project locally, follow these steps:</b>
+To run this project locally, follow these steps:
 <br>
 Clone this repository to your local machine using git clone.<br>
 Open the index.html file in your preferred web browser.
