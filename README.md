@@ -32,5 +32,5 @@ Open the index.html file in your preferred web browser.
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
 <br>
 <br>
-<b><u>License</u></b><br>
+<b>License</b><br>
 This project is licensed under the MIT License. Feel free to modify and distribute this code for personal or commercial projects.
