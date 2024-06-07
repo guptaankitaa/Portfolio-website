@@ -22,7 +22,7 @@ The live version of the website can be accessed  <a href="https://ank-portfolio-
 <li>JavaScript</li>
 <br>
 <br>
-To run this project locally, follow these steps:
+<b> To run this project locally, </b> follow these steps:
 <br>
 Clone this repository to your local machine using git clone.<br>
 Open the index.html file in your preferred web browser.
