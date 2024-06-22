@@ -1,14 +1,17 @@
 <b>Portfolio Website Project</b>
 <br>
+<br>
 This repository contains the code for my portfolio website developed in August 2022. The website showcases various projects, artworks, and achievements effectively. Additionally, it features a comprehensive notes section tailored for B.Tech students, offering beginner-friendly and easy-to-understand content.
 <br>
+<hr>
 <br>
 <b>Features</b>
 <br>
-<u>Portfolio Section:</u> A clean and responsive portfolio section to showcase projects, artworks, or achievements effectively.<hr>
-<u>Notes Section:</u> Developed a comprehensive notes section specifically for B.Tech students, featuring beginner-friendly and easy-to-understand content.<hr>
+<u>Portfolio Section:</u> A clean and responsive portfolio section to showcase projects, artworks, or achievements effectively.<br>
+<u>Notes Section:</u> Developed a comprehensive notes section specifically for B.Tech students, featuring beginner-friendly and easy-to-understand content.<br>
 <u>Optimized Performance:</u> Optimized website performance to ensure fast loading times and smooth navigation.
 <br>
+<hr>
 <br>
 <b>Live Link</b>
 <br>
